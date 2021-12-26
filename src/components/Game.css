@@ -1,0 +1,46 @@
+.wrapper {
+    min-height: 100vh;
+    background: #545f7d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.wrapperColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height:200px;
+}
+.start__btn {
+    width: 200px;
+    height: 35px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    background: #222222;
+    border: 1px solid #c4c4c4;
+    margin-right: 25px;
+}
+.start__btn:hover {
+    background: #fff;
+    color: #222222;
+    transition: .3s all ease;
+}
+.game__info {
+    position: relative;
+    margin-left: 20px;
+    font-size: 36px;
+    color: #c4c4c4;
+}
+
+.game__score {
+    justify-content: left;
+    align-items: left;
+    font-size: 36px;
+    color: #c4c4c4;
+    text-align: left;
+}
